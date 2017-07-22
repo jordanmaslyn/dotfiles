@@ -9,6 +9,7 @@
 # update and tap cask
 brew update
 brew doctor
+brew tap homebrew/homebrew-php
 brew tap caskroom/cask
 
 # Upgrade any already-installed formulae.
