@@ -133,6 +133,9 @@ brew cask install virtualbox
 brew cask install gpgtools
 
 # NVM setup
+mkdir ~/.nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 nvm install node
 nvm use node
 nvm alias default node
