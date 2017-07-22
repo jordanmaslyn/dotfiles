@@ -111,6 +111,7 @@ brew install git-lfs
 
 # install packages
 brew install gpg
+brew install nvm
 brew cask install slack
 brew cask install dropbox
 brew cask install google-drive
@@ -128,6 +129,12 @@ brew cask install caffeine
 brew cask install shiftit
 brew cask install adobe-creative-cloud
 brew cask install virtualbox
+brew cask install gpgtools
+
+# NVM setup
+nvm install node
+nvm use node
+nvm alias default node
 
 # install IE virtualbox images
 (cd ${HOME}/Downloads && curl -LO https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win8.1.For.Windows.VirtualBox.zip)
