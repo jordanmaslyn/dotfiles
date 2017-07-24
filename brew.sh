@@ -145,6 +145,8 @@ composer global require "laravel/installer"
 composer global require "laravel/valet"
 echo 'export PATH=$HOME/.composer/vendor/bin:$PATH' >> ~/.bash_profile
 
+# Install Yarn
+brew install yarn --ignore-dependencies
 
 # install IE virtualbox images
 (cd ${HOME}/Downloads && curl -LO https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win8.1.For.Windows.VirtualBox.zip)
