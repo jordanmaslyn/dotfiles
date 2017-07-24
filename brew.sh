@@ -134,8 +134,9 @@ brew cask install gpgtools
 
 # NVM setup
 mkdir ~/.nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
+echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.bash_profile
+source ~/.bash_profile
 nvm install node
 nvm use node
 nvm alias default node
