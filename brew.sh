@@ -131,6 +131,8 @@ brew cask install shiftit
 brew cask install adobe-creative-cloud
 brew cask install virtualbox
 brew cask install gpgtools
+brew cask install alfred
+brew cask install karabiner-elements
 
 # NVM setup
 mkdir ~/.nvm
