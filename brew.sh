@@ -52,7 +52,7 @@ brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install php71
+brew install php@7.2
 brew install mariadb
 
 # Install font tools.
